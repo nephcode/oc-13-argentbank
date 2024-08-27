@@ -1,17 +1,17 @@
-![Cover](https://github.com/nephcode/underconstruction-react/blob/main/.github/images/githubReadmeHeader.png)
+![Cover](https://kpkfzczpavanzocxzyta.supabase.co/storage/v1/object/public/oc-react/readme-header-oc-react-13.png)
 
 <!-- ∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴ -->
 
-# UNDERCONSTRUCTION REACT
+# PROJET 13 ARGENT BANK
 
-Template first init project with `vite``react`on `bun runtime`
+KYC REDUX & REACT 
 
 ## PROJECT DELIVERIES
 
 | WHAT FOR               | WHEN         |
 | :--------------------- | ------------ |
-| Deadline MVP           | `18-03-2024` |
-| Deadline CERTIFICATION | `15-04-2024` |
+| Deadline MVP           | `NEXT LEVEL` |
+| Deadline CERTIFICATION | `SEPTEMBER` |
 
 
 ## INFORMATIONS
@@ -44,4 +44,4 @@ git branch release
 
 ```
 
-![Cover](https://github.com/nephcode/underconstruction-react/blob/main/.github/images/githubReadmeFooter.png)
+![Cover](https://kpkfzczpavanzocxzyta.supabase.co/storage/v1/object/public/oc-react/readme-footer-oc-react-13.png)
