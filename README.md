@@ -4,23 +4,20 @@
 
 # PROJET 13 ARGENT BANK
 
-KYC REDUX & REACT 
+KYC REDUX & REACT
 
 ## PROJECT DELIVERIES
 
-| WHAT FOR               | WHEN         |
-| :--------------------- | ------------ |
-| Deadline MVP           | `NEXT LEVEL` |
-| Deadline CERTIFICATION | `SEPTEMBER` |
-
+| WHAT FOR               | WHEN           |
+| :--------------------- | -------------- |
+| Deadline MVP           | `SEPTEMBER 28` |
+| Deadline CERTIFICATION | `OCTOBER`      |
 
 ## INFORMATIONS
 
-| WHERE     | URL                                    |
-| :-------- | -------------------------------------- |
-| Discord   | [#](#)                                 |
-| Instagram | [https://www.instagram.com/](#)        |
-| www       | [#underconstution](#underconstruction) |
+| WHERE   | URL                                                |
+| :------ | -------------------------------------------------- |
+| Stating | [#ArgentBank Staging](https://oc13.youcodeuse.com) |
 
 | WHO IS   | FOR             |      COMPANY      | CONTACT | DISCORD |
 | :------- | --------------- | :---------------: | ------- | :-----: |
@@ -28,19 +25,26 @@ KYC REDUX & REACT
 
 ## TECHNO
 
-| TECHNO   | SPEC   |
-| :------- | ------ |
-| FRONTEND | `SASS` |
-| BACKEND |`BUN`|
-| BUNDLE |`VITE`|
+| TECHNO   | SPEC                 |
+| :------- | -------------------- |
+| FRONTEND | ` REACT 18.3``SASS ` |
+| BACKEND  | `NODE 18`            |
+| BUNDLE   | `VITE`               |
+
+## RESSOURCES
+
+|SUJET| URL|
+|---|–--|
+|REDUX|[React App avec Redux](https://openclassrooms.com/fr/courses/8228131-gerez-votre-application-react-avec-redux-et-redux-toolkit?archived-source=7150626) |
+|SWAGGER|[Swagger documentation](https://editor.swagger.io/)|
+|API DOCS|[local api documentation](http://localhost:3001/api-docs)|
 
 ## RUNNING THE APPS
 
-Create branch
+With bun runtime (i know it is a node project 😝)
 
 ```
-git branch dev
-git branch release
+bun update | bun install | bun run dev
 
 ```
 
