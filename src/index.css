@@ -29,7 +29,7 @@ main {
 }
 
 .main #user {
-  flex: 1
+  flex: 1;
 }
 
 .bg-dark {
@@ -89,7 +89,7 @@ main {
 }
 
 .hero {
-  background-image: url('./assets/bank-tree.jpeg');
+  background-image: url("./assets/bank-tree.jpeg");
   background-position: 0 -50px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -190,6 +190,7 @@ main {
   margin: 0 auto;
   margin-top: 3rem;
   padding: 2rem;
+  border-radius: 7px;
 }
 
 .sign-in-icon {

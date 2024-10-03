@@ -1,0 +1,34 @@
+//============================================= YOUCODEUSE ===========//
+// _GLOBAL ===========================================================//
+//==================================== By NEPHILIM ============ 2024 =//
+@use './colors.module.scss' as colors;
+@use './typo.module.scss' as typo;
+
+#root {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    //height: 100vh;
+}
+
+:root {
+    font-size: typo.$fontSizeRoot;
+    /*color-scheme: light dark;*/
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: colors.$backgroundSite;
+    font-family: typo.$fontDefault;
+    color: colors.$colorTypoWhite;
+
+    // DARL MODE & LIGHT MODE
+    //color: light-dark(colors.$backgroundSiteLight, colors.$backgroundSiteDark);
+    //background-color: light-dark(colors.$backgroundSiteLight, colors.$backgroundSiteDark);
+}
