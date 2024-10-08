@@ -1,6 +1,6 @@
 //============================================= YOUCODEUSE ===========//
 // _GLOBAL ===========================================================//
-//==================================== By NEPHILIM ============ 2024 =//
+//==================================== By NEPHELIM ============ 2024 =//
 @use './colors.module.scss' as colors;
 @use './typo.module.scss' as typo;
 
@@ -27,8 +27,42 @@ body {
     background: colors.$backgroundSite;
     font-family: typo.$fontDefault;
     color: colors.$colorTypoWhite;
-
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     // DARL MODE & LIGHT MODE
     //color: light-dark(colors.$backgroundSiteLight, colors.$backgroundSiteDark);
     //background-color: light-dark(colors.$backgroundSiteLight, colors.$backgroundSiteDark);
+}
+
+html {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.main #user {
+    flex: 1;
+}
+
+.bg-dark {
+    background-color: colors.$backgroundSiteDark;
 }

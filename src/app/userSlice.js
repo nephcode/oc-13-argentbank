@@ -1,5 +1,8 @@
+// IMPORTS ==============================================//
 import { createSlice } from "@reduxjs/toolkit";
 
+
+// SLICE ==============================================//
 export const userSlice = createSlice({
 
     name: 'user',
@@ -16,7 +19,7 @@ export const userSlice = createSlice({
             state.user = action.payload
         },
         setIsEditing: (state, action) => {
-            state.isEditingn = action.payload
+            state.isEditing = action.payload
         },
         signout: state => {
             state.token = null
