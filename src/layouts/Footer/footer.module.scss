@@ -1,0 +1,18 @@
+//============================================= YOUCODEUSE ===========//
+// FOOTER ============================================================//
+//==================================== By NEPHA ============ 2024 ====//
+@use "../../scss/colors.module.scss" as colors;
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background: colors.$backgroundFooter;
+    border-top: 2px solid colors.$colorSecondary;
+    padding: 2rem 0 1.5rem;
+}
+
+.footerText {
+    color: colors.$colorTypoGrey;
+    margin: 0;
+    padding: 0;
+}

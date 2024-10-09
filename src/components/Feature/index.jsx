@@ -10,24 +10,23 @@ import featureData from "./feature_fr.json";
 const featureBar = () => {
   return (
     <section
-      className={scssFeature.features}
+      className={scssFeature.feature}
       role="complementary"
       aria-label="Liens vers les réseaux professionels"
     >
-      <h2 className={scssFeature.only}>Features</h2>
       {featureData.map((feat) => (
         <div
           key={feat.id}
           data-id={feat.id}
-          className={scssFeature.featureitem}
+          className={scssFeature.featureItem}
         >
           <img
             src={feat.image_url}
             alt=""
             aria-hidden="true"
-            className="feature-icon"
+            className={scssFeature.featureIcon}
           />
-          <h3 className="feature-item-title">{feat.hn}</h3>
+          <h3 className={scssFeature.featureTitle}>{feat.hn}</h3>
           <p>{feat.text}</p>
         </div>
       ))}

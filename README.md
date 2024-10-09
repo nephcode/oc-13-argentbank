@@ -13,7 +13,7 @@ BLABLABLA
 | WHAT FOR               | WHEN           |
 | :--------------------- | -------------- |
 | Deadline MVP           | `SEPTEMBER 28` |
-| Deadline CERTIFICATION | `OCTOBER`      |
+| Deadline CERTIFICATION | `OCTOBER 10`   |
 
 ## INFORMATIONS
 
@@ -27,19 +27,19 @@ BLABLABLA
 
 ## TECHNO
 
-| TECHNO   | SPEC                 |
-| :------- | -------------------- |
-| FRONTEND | ` REACT 18.3``SASS ` |
-| BACKEND  | `NODE 18`            |
-| BUNDLE   | `VITE`               |
+| TECHNO   | SPEC                               |
+| :------- | ---------------------------------- |
+| FRONTEND | `REACT 18.3` `SASS MODULE` `REDUX` |
+| BACKEND  | `NODE 18`                          |
+| BUNDLE   | `VITE`                             |
 
 ## RESSOURCES
 
-|SUJET| URL|
-|---|–--|
-|REDUX|[React App avec Redux](https://openclassrooms.com/fr/courses/8228131-gerez-votre-application-react-avec-redux-et-redux-toolkit?archived-source=7150626) |
-|SWAGGER|[Swagger documentation](https://editor.swagger.io/)|
-|API DOCS|[local api documentation](http://localhost:3001/api-docs)|
+| SUJET      | URL                                                                                                                                                     |
+| :--------- | :------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `REDUX`    | [React App avec Redux](https://openclassrooms.com/fr/courses/8228131-gerez-votre-application-react-avec-redux-et-redux-toolkit?archived-source=7150626) |
+| `SWAGGER`  | [Swagger documentation](https://editor.swagger.io/)                                                                                                     |
+| `API DOCS` | [local api documentation](http://localhost:3001/api-docs)                                                                                               |
 
 ## RUNNING THE APPS
 

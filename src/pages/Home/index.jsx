@@ -2,6 +2,7 @@
 //import scssHome from "./home.module.scss";
 
 // IMPORT FEATURE COMPONENT
+import Hero from "../../components/Hero";
 import Feature from "../../components/Feature";
 
 // PLEASE NEED HELP DIDBUGGING THIS CODE
@@ -9,6 +10,7 @@ import Feature from "../../components/Feature";
 const Home = () => {
   return (
     <main>
+      <Hero />
       <Feature />
     </main>
   );
