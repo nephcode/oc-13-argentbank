@@ -1,10 +1,11 @@
 // IMPORT MODULES ==============================================//
+import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Provider } from "react-redux";
 
 // IMPORT SCSS ================================================//
-import "/scss/router.module.scss";
+import "./scss/router.module.scss";
 
 // IMPORT LAYOUTS =============================================//
 import Header from "./layouts/Header";
@@ -20,17 +21,19 @@ import { store } from "./app/store";
 
 // RENDER ====================================================//
 createRoot(document.getElementById("root")).render(
-  <Provider store={store}>
-    <Router>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/sign-in" element={<Login />} />
-        <Route path="/profile" element={<Profile />} />
-        {/* <Route path="*" element={<NotFound />} /> */}
-      </Routes>
-      <Footer />
-    </Router>
-  </Provider>
+  <StrictMode>
+    <Provider store={store}>
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/profile" element={<Profile />} />
+          {/* <Route path="*" element={<NotFound />} /> */}
+        </Routes>
+        <Footer />
+      </Router>
+    </Provider>
+  </StrictMode>
 );
 // End of RENDER ==============================================//
