@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "hn": "Vous êtes notre priorité #1",
+        "text": "Besoin de parler à un représentant ? Vous pouvez nous contacter via notre chat 24/7 ou par téléphone en moins de 5 minutes.",
+        "image_url": "src/assets/icon-chat.png"
+    },
+    {
+        "id": 2,
+        "hn": "Plus vous épargnez, plus les taux sont élevés",
+        "text": "Plus vous économisez avec nous, plus votre taux d'intérêt sera élevé !",
+        "image_url": "src/assets/icon-money.png"
+    },
+    {
+        "id": 3,
+        "hn": "Sécurité fiable",
+        "text": "Nous utilisons le cryptage de pointe pour assurer la sécurité de vos données et de votre argent.",
+        "image_url": "src/assets/icon-security.png"
+    }
+]
