@@ -5,10 +5,13 @@ import { useDispatch, useSelector } from "react-redux";
 
 // IMPORT COMPONENTS ==========================================//
 import Welcome from "../../components/Welcome";
-
+import accountData from "./account_fr.json";
 // IMPORT REDUX ===============================================//
 import { selectToken, setUser } from "../../app/userSlice";
 import { postUser } from "../../app/userApi";
+
+// IMPORT SCSS ================================================//
+import scssProfile from "./profile.module.scss";
 
 // COMPONENTS PROFILE =========================================//
 const Profile = () => {
@@ -25,38 +28,27 @@ const Profile = () => {
   }, [dispatch, navigate, token]);
 
   return (
-    <main className="main bg-dark">
+    <main className={scssProfile.profile}>
       <Welcome />
-      <h2 className="sr-only">Accounts</h2>
-      <section className="account">
-        <div className="account-content-wrapper">
-          <h3 className="account-title">Argent Bank Checking (x8349)</h3>
-          <p className="account-amount">$2,082.79</p>
-          <p className="account-amount-description">Available Balance</p>
-        </div>
-        <div className="account-content-wrapper cta">
-          <button className="transaction-button">View transactions</button>
-        </div>
-      </section>
-      <section className="account">
-        <div className="account-content-wrapper">
-          <h3 className="account-title">Argent Bank Savings (x6712)</h3>
-          <p className="account-amount">$10,928.42</p>
-          <p className="account-amount-description">Available Balance</p>
-        </div>
-        <div className="account-content-wrapper cta">
-          <button className="transaction-button">View transactions</button>
-        </div>
-      </section>
-      <section className="account">
-        <div className="account-content-wrapper">
-          <h3 className="account-title">Argent Bank Credit Card (x8349)</h3>
-          <p className="account-amount">$184.30</p>
-          <p className="account-amount-description">Current Balance</p>
-        </div>
-        <div className="account-content-wrapper cta">
-          <button className="transaction-button">View transactions</button>
-        </div>
+      <section>
+        {accountData.map((account) => (
+          <article
+            key={account.id}
+            data-id={account.id}
+            className={scssProfile.account}
+          >
+            <div className={scssProfile.accountWrapper}>
+              <h3 className={scssProfile.accountTitle}>{account.account}</h3>
+              <p className={scssProfile.accountAmount}>{account.amount}</p>
+              <p className={scssProfile.accountDescription}>Solde Disponible</p>
+            </div>
+            <div className="account-content-wrapper cta">
+              <button className={scssProfile.transaction}>
+                Voir l'opération
+              </button>
+            </div>
+          </article>
+        ))}
       </section>
     </main>
   );
