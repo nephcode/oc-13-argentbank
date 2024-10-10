@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@font-face {
+  font-family: "montserrat";
+  font-weight: normal;
+  font-style: normal;
+}
+h1 {
+  font-size: 2rem;
+  font-family: "Montserrat";
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.login {
+  background: #12002b;
+  color: #2c3e50;
+  padding: 2rem;
+  text-align: center;
+}
+.login h1 {
+  color: #2c3e50;
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin: 0;
+}
+.loginButton {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  border-color: #00bc77;
+  background-color: #00bc77;
+  color: #FFFFFF;
+  border-radius: 10px;
+  border: 1px solid #00bc77;
+}
+.loginContent {
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 3rem;
+  padding: 2rem;
+  border-radius: 7px;
+}
+.loginIcon {
+  font-size: 5rem;
+}
+
+.inputRemember {
+  display: flex;
+}
+.inputRemember label {
+  margin-left: 0.25rem;
+}
+
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+.inputWrapper label {
+  font-weight: bold;
+}
+.inputWrapper input {
+  padding: 5px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  border: 1px solid #E3E3E3;
+}/*# sourceMappingURL=login.module.css.map */

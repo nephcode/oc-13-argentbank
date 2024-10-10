@@ -1,0 +1,8 @@
+@use "../../scss/colors.module.scss" as colors;
+
+.home {
+    background: colors.$backgroundSiteLight;
+    color: colors.$colorTypoBlack;
+    padding: 2rem;
+    text-align: center;
+}

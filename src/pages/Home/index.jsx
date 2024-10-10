@@ -1,5 +1,5 @@
 // IMPORT SCSS
-//import scssHome from "./home.module.scss";
+import scssHome from "./home.module.scss";
 
 // IMPORT FEATURE COMPONENT
 import Hero from "../../components/Hero";
@@ -9,7 +9,7 @@ import Feature from "../../components/Feature";
 // NEPHA KEEP CALM AND CODE ON
 const Home = () => {
   return (
-    <main>
+    <main className={scssHome.home}>
       <Hero />
       <Feature />
     </main>

@@ -18,7 +18,7 @@ const Profile = () => {
 
   useEffect(() => {
     if (!token) {
-      navigate("/sign-in");
+      navigate("/login");
     } else {
       postUser(token).then((data) => dispatch(setUser(data.body)));
     }

@@ -1,0 +1,71 @@
+@use "../../scss/colors.module.scss" as colors;
+@use "../../scss/typo.module.scss" as typo;
+
+.login {
+    background: colors.$backgroundSite;
+    color: colors.$colorTypoBlack;
+    padding: 2rem;
+    text-align: center;
+
+    h1 {
+        color: colors.$colorTypoGrey;
+        font-size: 1.4rem;
+        font-weight: 400;
+        margin: 0;
+    }
+
+    &Button {
+        display: block;
+        width: 100%;
+        padding: 8px;
+        font-size: 1.1rem;
+        font-weight: bold;
+        margin-top: 1rem;
+        border-color: colors.$colorMain;
+        background-color: colors.$colorMain;
+        color: colors.$colorWhite;
+        border-radius: 10px;
+        border: 1px solid colors.$colorMain;
+    }
+
+    &Content {
+        box-sizing: border-box;
+        background-color: colors.$colorWhite;
+        width: 300px;
+        margin: 0 auto;
+        margin-top: 3rem;
+        padding: 2rem;
+        border-radius: 7px;
+    }
+
+    &Icon {
+        font-size: 5rem;
+    }
+}
+
+
+.inputRemember {
+    display: flex;
+
+    label {
+        margin-left: 0.25rem;
+    }
+}
+
+.inputWrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 1rem;
+
+    label {
+        font-weight: bold;
+    }
+
+    input {
+        padding: 5px;
+        font-size: 1.2rem;
+        border-radius: 10px;
+        border: 1px solid colors.$colorGrey;
+    }
+}
