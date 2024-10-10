@@ -1,6 +1,8 @@
-// IMPORTS ==============================================//
-
+// IMPORTS REACT ===========================================//
+import { useRef } from "react";
 import { useSelector, useDispatch } from "react-redux";
+
+// IMPORT APP ===========================================//
 import {
   selectUser,
   selectIsEditing,
@@ -8,8 +10,10 @@ import {
   selectToken,
   setIsEditing,
 } from "../../app/userSlice";
-import { useRef } from "react";
 import { putUser } from "../../app/userApi";
+
+// IMPORT SCSS ===========================================//
+import scssWelcome from "./welcome.module.scss";
 
 // COMPONENTS WELCOME ===================================//
 const Welcome = () => {
@@ -37,16 +41,16 @@ const Welcome = () => {
         <>
           <h1>La bienvenue</h1>
           <form id="changeUserData" ref={form} onSubmit={(e) => updateUser(e)}>
-            <div className="input-wrapper">
+            <div className={scssWelcome.inputWrapper}>
               <input type="text" id="firstname" placeholder={user?.firstName} />
               <input type="text" id="lastname" placeholder={user?.lastName} />
             </div>
-            <div className="input-wrapper">
-              <button className="sign-in-button" type="submit">
+            <div className={scssWelcome.inputWrapper}>
+              <button className={scssWelcome.loginButton} type="submit">
                 Sauver
               </button>
               <button
-                className="sign-in-button"
+                className={scssWelcome.loginButton}
                 type="reset"
                 onClick={() => dispatch(setIsEditing(false))}
               >
@@ -63,7 +67,7 @@ const Welcome = () => {
             {user?.firstName} {user?.lastName}!
           </h1>
           <button
-            className="edit-button"
+            className={scssWelcome.buttonEdit}
             onClick={() => dispatch(setIsEditing(true))}
           >
             Editer le profil

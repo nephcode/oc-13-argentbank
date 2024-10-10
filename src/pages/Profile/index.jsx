@@ -5,7 +5,8 @@ import { useDispatch, useSelector } from "react-redux";
 
 // IMPORT COMPONENTS ==========================================//
 import Welcome from "../../components/Welcome";
-import accountData from "./account_fr.json";
+import Account from "../../components/Account";
+
 // IMPORT REDUX ===============================================//
 import { selectToken, setUser } from "../../app/userSlice";
 import { postUser } from "../../app/userApi";
@@ -30,26 +31,7 @@ const Profile = () => {
   return (
     <main className={scssProfile.profile}>
       <Welcome />
-      <section>
-        {accountData.map((account) => (
-          <article
-            key={account.id}
-            data-id={account.id}
-            className={scssProfile.account}
-          >
-            <div className={scssProfile.accountWrapper}>
-              <h3 className={scssProfile.accountTitle}>{account.account}</h3>
-              <p className={scssProfile.accountAmount}>{account.amount}</p>
-              <p className={scssProfile.accountDescription}>Solde Disponible</p>
-            </div>
-            <div className="account-content-wrapper cta">
-              <button className={scssProfile.transaction}>
-                Voir l'opération
-              </button>
-            </div>
-          </article>
-        ))}
-      </section>
+      <Account />
     </main>
   );
 };

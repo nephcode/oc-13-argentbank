@@ -1,0 +1,99 @@
+@use "../../scss/colors.module.scss" as colors;
+@use "../../scss/typo.module.scss" as typo;
+
+
+.account {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid colors.$colorMain;
+    background-color: colors.$colorWhite;
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: column;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    text-align: left;
+    margin-bottom: 2rem;
+    border-radius: 7px;
+
+    &Amount {
+        color: colors.$colorTypoBlack;
+        margin: 0;
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+
+    &Description {
+        color: colors.$colorTypoGrey;
+        margin: 0;
+    }
+
+    &Title {
+        color: colors.$colorTypoGrey;
+        margin: 0;
+        padding: 0;
+        font-size: 1rem;
+        font-weight: normal;
+    }
+
+    &Wrapper {
+        width: 100%;
+        flex: 1;
+    }
+
+}
+
+.edit-button {
+    border-color: colors.$colorMain;
+    background-color: colors.$colorMain;
+    color: colors.$colorWhite;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.header {
+    color: colors.$colorWhite;
+    margin-bottom: 2rem;
+}
+
+.transaction {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    border-color: colors.$colorMain;
+    background-color: colors.$colorMain;
+    color: colors.$colorWhite;
+    border-radius: 7px;
+}
+
+#changeUserData .input-wrapper {
+    flex-direction: row;
+    justify-content: center;
+}
+
+#changeUserData input {
+    margin-right: 30px;
+}
+
+#changeUserData button {
+    width: auto;
+    margin-right: 30px;
+}
+
+@media (min-width: 720px) {
+    .account {
+        flex-direction: row;
+    }
+
+    .account-content-wrapper.cta {
+        flex: 0;
+    }
+
+    .transaction-button {
+        width: 200px;
+    }
+}

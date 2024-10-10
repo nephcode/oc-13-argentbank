@@ -1,0 +1,67 @@
+.buttonEdit {
+  border-color: #00bc77;
+  background-color: #00bc77;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 7px;
+  margin: 0.3rem;
+}
+
+.header {
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+.transaction-button {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  border-color: #00bc77;
+  background-color: #00bc77;
+  color: #ffffff;
+}
+
+#changeUserData .inputWrapper {
+  flex-direction: row;
+  justify-content: center;
+}
+
+#changeUserData input {
+  margin-right: 30px;
+}
+
+#changeUserData button {
+  width: auto;
+  margin-right: 30px;
+}
+
+@media (min-width: 720px) {
+  .account {
+    flex-direction: row;
+  }
+  .account-content-wrapper.cta {
+    flex: 0;
+  }
+  .transaction-button {
+    width: 200px;
+  }
+}
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+.inputWrapper label {
+  font-weight: bold;
+}
+.inputWrapper input {
+  padding: 5px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  border: 1px solid #E3E3E3;
+}/*# sourceMappingURL=welcome.module.css.map */

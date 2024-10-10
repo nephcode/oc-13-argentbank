@@ -1,12 +1,15 @@
-// IMPORT SCSS
-import scssHome from "./home.module.scss";
+//============================================= ARGENTBANK ===========//
+// _HOME =============================================================//
+//==================================== By NEPHELIM ============ 2024 =//
 
-// IMPORT FEATURE COMPONENT
+// IMPORT FEATURE COMPONENT ==========================================//
 import Hero from "../../components/Hero";
 import Feature from "../../components/Feature";
 
-// PLEASE NEED HELP DIDBUGGING THIS CODE
-// NEPHA KEEP CALM AND CODE ON
+// IMPORT SCSS =======================================================//
+import scssHome from "./home.module.scss";
+
+// HOME COMPONENT ====================================================//
 const Home = () => {
   return (
     <main className={scssHome.home}>
@@ -15,5 +18,5 @@ const Home = () => {
     </main>
   );
 };
-
 export default Home;
+// End of Home component ============================================//

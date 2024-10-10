@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@font-face {
+  font-family: "montserrat";
+  font-weight: normal;
+  font-style: normal;
+}
+h1 {
+  font-size: 2rem;
+  font-family: "Montserrat";
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+:root {
+  font-size: 16px;
+  /*color-scheme: light dark;*/
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #12002b;
+  font-family: "Montserrat";
+  color: #ffffff;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+html {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+}
+
+main {
+  flex: 1;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.main #user {
+  flex: 1;
+}
+
+.bg-dark {
+  background-color: #12002b;
+}/*# sourceMappingURL=router.module.css.map */

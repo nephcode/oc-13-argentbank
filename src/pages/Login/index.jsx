@@ -54,10 +54,10 @@ const Login = () => {
           </div>
           <div className={scssLogin.inputRemember}>
             <input type="checkbox" id="remember-me" />
-            <label htmlFor="remember-me">Remember me</label>
+            <label htmlFor="remember-me">Se souvenir de moi</label>
           </div>
           <button className={scssLogin.loginButton} type="submit">
-            Sign In
+            Connexion
           </button>
         </form>
         <p>{error}</p>

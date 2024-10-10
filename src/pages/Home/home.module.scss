@@ -1,8 +1,13 @@
+//============================================= ARGENTBANK ===========//
+// _HOME =============================================================//
+//==================================== By NEPHELIM ============ 2024 =//
+
 @use "../../scss/colors.module.scss" as colors;
 
 .home {
+    display: flex;
+    flex-direction: column;
     background: colors.$backgroundSiteLight;
     color: colors.$colorTypoBlack;
-    padding: 2rem;
     text-align: center;
 }
