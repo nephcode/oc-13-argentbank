@@ -1,3 +1,8 @@
+.welcome {
+  color: #ffffff;
+  margin: 2rem;
+}
+
 .buttonEdit {
   border-color: #00bc77;
   background-color: #00bc77;
@@ -6,11 +11,6 @@
   padding: 10px;
   border-radius: 7px;
   margin: 0.3rem;
-}
-
-.header {
-  color: #ffffff;
-  margin-bottom: 2rem;
 }
 
 .transaction-button {
@@ -25,18 +25,32 @@
   color: #ffffff;
 }
 
-#changeUserData .inputWrapper {
+.inputWrapper {
+  max-width: 50%;
+  display: flex;
   flex-direction: row;
   justify-content: center;
+  margin: 0 auto;
 }
-
-#changeUserData input {
-  margin-right: 30px;
+.inputWrapper input[type=text] {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #00bc77;
+  background-color: #FFFFFF;
+  border-radius: 7px;
+  margin: 0.3rem;
 }
-
-#changeUserData button {
-  width: auto;
-  margin-right: 30px;
+.inputWrapper button {
+  display: block;
+  width: 100px;
+  padding: 0.3rem 1rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 0.3rem;
+  border-color: #00bc77;
+  background-color: #00bc77;
+  color: #FFFFFF;
+  border-radius: 7px;
 }
 
 @media (min-width: 720px) {
@@ -49,19 +63,4 @@
   .transaction-button {
     width: 200px;
   }
-}
-.inputWrapper {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  margin-bottom: 1rem;
-}
-.inputWrapper label {
-  font-weight: bold;
-}
-.inputWrapper input {
-  padding: 5px;
-  font-size: 1.2rem;
-  border-radius: 10px;
-  border: 1px solid #E3E3E3;
 }/*# sourceMappingURL=welcome.module.css.map */

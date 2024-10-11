@@ -6,6 +6,7 @@
 .feature {
     display: flex;
     flex-direction: column;
+    flex: 1;
 
     &Icon {
         width: 100px;

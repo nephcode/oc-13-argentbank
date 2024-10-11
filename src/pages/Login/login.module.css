@@ -36,8 +36,7 @@ h1 {
   border-color: #00bc77;
   background-color: #00bc77;
   color: #FFFFFF;
-  border-radius: 10px;
-  border: 1px solid #00bc77;
+  border-radius: 7px;
 }
 .loginContent {
   box-sizing: border-box;
@@ -71,6 +70,6 @@ h1 {
 .inputWrapper input {
   padding: 5px;
   font-size: 1.2rem;
-  border-radius: 10px;
+  border-radius: 7px;
   border: 1px solid #E3E3E3;
 }/*# sourceMappingURL=login.module.css.map */

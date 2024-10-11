@@ -36,7 +36,7 @@ const Welcome = () => {
   };
 
   return (
-    <div className="header">
+    <section className={scssWelcome.welcome}>
       {isEditing ? (
         <>
           <h1>La bienvenue</h1>
@@ -74,7 +74,7 @@ const Welcome = () => {
           </button>
         </>
       )}
-    </div>
+    </section>
   );
 };
 

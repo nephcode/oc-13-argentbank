@@ -12,7 +12,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px 20px;
 }
 .connect a {
   font-weight: bold;
@@ -24,7 +23,7 @@
 
 .connect {
   text-decoration: none;
-  margin-right: 0.5rem;
+  padding-left: 10px;
 }
 .connect:hover {
   text-decoration: underline;

@@ -9,12 +9,14 @@ import scssHero from "./hero.module.scss";
 const Hero = () => {
   return (
     <section className={scssHero.hero}>
-      <p className={scssHero.subtitle}>No fees.</p>
-      <p className={scssHero.subtitle}>No minimum deposit.</p>
-      <p className={scssHero.subtitle}>High interest rates.</p>
-      <p className={scssHero.text}>
-        Open a savings account with Argent Bank today!
-      </p>
+      <div className={scssHero.heroSquare}>
+        <p className={scssHero.subtitle}>Pas de frais.</p>
+        <p className={scssHero.subtitle}>Aucun dépôt minimum.</p>
+        <p className={scssHero.subtitle}>Taux d'intérêt élevés.</p>
+        <p className={scssHero.text}>
+          Ouvrez un compte épargne chez Argent Bank dès aujourd'hui !
+        </p>
+      </div>
     </section>
   );
 };

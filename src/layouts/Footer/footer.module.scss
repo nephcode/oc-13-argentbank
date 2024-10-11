@@ -9,6 +9,10 @@
     background: colors.$backgroundFooter;
     border-top: 2px solid colors.$colorSecondary;
     padding: 2rem 0 1.5rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
 }
 
 .footerText {

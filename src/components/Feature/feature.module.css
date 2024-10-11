@@ -1,6 +1,7 @@
 .feature {
   display: flex;
   flex-direction: column;
+  flex: 1;
 }
 .featureIcon {
   width: 100px;
