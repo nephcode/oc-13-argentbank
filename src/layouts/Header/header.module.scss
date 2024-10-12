@@ -20,6 +20,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-decoration: none;
+    padding-left: 10px;
 
     a {
         font-weight: bold;
@@ -30,24 +32,29 @@
         color: colors.$colorMain;
     }
 
-}
-
-.connect {
-    text-decoration: none;
-    padding-left: 10px;
-
-
     &:hover {
         text-decoration: underline;
     }
+
 }
+
 
 .logo {
     display: flex;
     align-items: center;
+    width: clamp(150px, 20%, 200px);
 
     &Image {
         max-width: 100%;
         width: 200px;
     }
+}
+
+@media screen and (max-width: 765px) {
+    .header {
+        height: 60px;
+    }
+
+
+
 }
