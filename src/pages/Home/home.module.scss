@@ -5,6 +5,7 @@
 @use "../../scss/colors.module.scss" as colors;
 
 .home {
+    grid-row: 2;
     display: flex;
     flex: 1;
     flex-direction: column;

@@ -1,12 +1,11 @@
 .footer {
+  grid-row: 3;
   display: flex;
   justify-content: center;
+  align-items: center;
   background: #FFFFFF;
   border-top: 2px solid #005834;
   padding: 2rem 0 1.5rem;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
 }
 
 .footerText {

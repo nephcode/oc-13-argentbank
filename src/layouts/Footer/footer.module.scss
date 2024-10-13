@@ -4,14 +4,16 @@
 @use "../../scss/colors.module.scss" as colors;
 
 .footer {
+    grid-row: 3;
     display: flex;
     justify-content: center;
+    align-items: center;
     background: colors.$backgroundFooter;
     border-top: 2px solid colors.$colorSecondary;
     padding: 2rem 0 1.5rem;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+    //position: absolute;
+    //bottom: 0;
+    // width: 100%;
 
 }
 
