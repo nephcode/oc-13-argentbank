@@ -4,13 +4,6 @@
 @use './colors.module.scss' as colors;
 @use './typo.module.scss' as typo;
 
-#root {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    //height: 100vh;
-}
-
 :root {
     font-size: typo.$fontSizeRoot;
     /*color-scheme: light dark;*/
@@ -27,43 +20,31 @@ body {
     background: colors.$backgroundSite;
     font-family: typo.$fontDefault;
     color: colors.$colorTypoWhite;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
     // DARL MODE & LIGHT MODE
     //color: light-dark(colors.$backgroundSiteLight, colors.$backgroundSiteDark);
     //background-color: light-dark(colors.$backgroundSiteLight, colors.$backgroundSiteDark);
-}
 
-html {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
+    [id="root"] {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        //margin: 0px auto;
+        min-height: 100vh;
+
+    }
 }
 
 #root {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: 90px 1fr 60px;
+    /* Header de 90px, Main flexible, Footer de 60px */
     min-height: 100vh;
-    justify-content: space-between;
 }
 
-main {
-    flex: 1;
-}
-
-.main {
-    display: flex;
-    flex-direction: column;
-}
-
-.main #user {
-    flex: 1;
-}
-
-.bg-dark {
-    background-color: colors.$backgroundSiteDark;
+.app {
+    display: grid;
+    grid-template-rows: 90px 1fr 60px;
+    /* Header de 90px, Main flexible, Footer de 60px */
+    min-height: 100vh;
 }
