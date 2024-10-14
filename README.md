@@ -4,16 +4,15 @@
 
 # PROJET 13 ARGENT BANK
 
-KYC REDUX & REACT
-EXPLOIT MIND
-BLABLABLA
+KYC REDUX & REACT _ AUTH LOW PROFIL
+
 
 ## PROJECT DELIVERIES
 
 | WHAT FOR               | WHEN           |
 | :--------------------- | -------------- |
-| Deadline MVP           | `SEPTEMBER 28` |
-| Deadline CERTIFICATION | `OCTOBER 10`   |
+| Deadline MVP           | `OCTOBER 18` |
+| Deadline CERTIFICATION | `NOVEMBER 11 `   |
 
 ## INFORMATIONS
 
@@ -49,5 +48,19 @@ With bun runtime (i know it is a node project 😝)
 bun update | bun install | bun run dev
 
 ```
+
+## ONCE TIME A TIME
+
+- HTML REACT Classic Template Nephelim
+- JS => API CONNECT
+- REDUX (State Manager) 👁️👁️ See later Zustand
+-  I love border-radius 
+- Sass module in component
+- Test Login Access > test direct URL /profil > OK
+- REST CRUD OK > See API DOCS
+- OK CHANGE upgrade node to `node18`
+- Deploy API > personal server <> No time
+-  fix Footer with GRID
+-  YAML ROUTE > OK 
 
 ![Cover](https://kpkfzczpavanzocxzyta.supabase.co/storage/v1/object/public/oc-react/readme-footer-oc-react-13.png)
