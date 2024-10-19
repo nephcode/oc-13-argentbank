@@ -135,8 +135,8 @@ paths:
             type: array
             items:
               $ref: "#/definitions/Transaction"
-        "400":
-          description: Invalid request
+        "404":
+          description: Transaction not found
         "401":
           description: Unauthorized
         "500":
@@ -162,20 +162,18 @@ paths:
           description: Transaction details retrieved successfully
           schema:
             $ref: "#/definitions/TransactionDetails"
-        "400":
-          description: Invalid transaction ID
         "401":
           description: Unauthorized
         "404":
           description: Transaction not found
         "500":
           description: Internal Server Error
-    put:
+    patch:
       security:
         - Bearer: []
       tags:
         - Transactions
-      summary: Update transaction details
+      summary: Patch part of transaction details
       description: API to update the category and notes of a specific transaction
       parameters:
         - in: path
@@ -193,7 +191,7 @@ paths:
         - application/json
       responses:
         "200":
-          description: Transaction details updated successfully
+          description: Transaction details 'patch' updated successfully
           schema:
             $ref: "#/definitions/ApiResponseBis"
         "400":
